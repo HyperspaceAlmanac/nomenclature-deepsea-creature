@@ -28,13 +28,25 @@ attacking once and defending once.
 Currently planning 6 character parties so that players have to choose 2 to attack with, and 2 from
 remaining 4 to defend with.
 
+In general, player attacking should be the one to pick actions last.
+Might need to change the turn order a bit more.
+
 Order will be (for P2 defending):
-P2 formation (secret) -> P1 formation (reveal both), P1 Choose Two (secret, for action 1)
+P2 formation (secret)
+
+-> P1 formation (reveal both), P1 Choose Two (secret, for action 1)
 
 -> P2 Choose Two (reveal both, for action 1), P2 choose defending action (scret)
--> P1 Choose attacking action(reveal both) -> Resolve -> P1 Choose Two (secret, for action 2)
--> P2 Choose Two (reveal both, for action 2), P2 choose attacking action (secret)
--> P1 chosoe defending action (reveal both) -> Resolve
+
+-> P1 Choose attacking action(reveal both) -> Resolve
+
+Switch Attacker and Defender
+
+P2 Choose Two (secret, for action 2)
+
+-> P1 Choose Two (reveal both, for action 2) -> P1 choose defending action (secret)
+
+-> P2 chosoe attacking action (reveal both) -> Resolve
 
 Then it goes to P1 defending, with P1 choosing Formation first.
 
