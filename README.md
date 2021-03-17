@@ -19,6 +19,25 @@ Players will the use the teams to fight.
 In a way I want to make an interesting gatcha style game but multiplayer and
 without gatcha.
 
+# Turn Order Mechanics
+Made a big breakthrough last night.
+
+Each turn is broken up into multiple parts with both players choosing a formation,
+attacking once and defending once.
+
+Currently planning 6 character parties so that players have to choose 2 to attack with, and 2 from
+remaining 4 to defend with.
+
+Order will be (for P2 defending):
+P2 formation (secret) -> P1 formation (reveal both), P1 Choose Two (secret, for action 1)
+
+-> P2 Choose Two (reveal both, for action 1), P2 choose defending action (scret)
+-> P1 Choose attacking action(reveal both) -> Resolve -> P1 Choose Two (secret, for action 2)
+-> P2 Choose Two (reveal both, for action 2), P2 choose attacking action (secret)
+-> P1 chosoe defending action (reveal both) -> Resolve
+
+Then it goes to P1 defending, with P1 choosing Formation first.
+
 
 
 
